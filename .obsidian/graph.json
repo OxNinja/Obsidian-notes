@@ -15,7 +15,35 @@
       }
     },
     {
-      "query": "",
+      "query": "tag:reverse",
+      "color": {
+        "a": 1,
+        "rgb": 11657298
+      }
+    },
+    {
+      "query": "tag:pwn",
+      "color": {
+        "a": 1,
+        "rgb": 11418958
+      }
+    },
+    {
+      "query": "tag:network",
+      "color": {
+        "a": 1,
+        "rgb": 5431473
+      }
+    },
+    {
+      "query": "tag:db",
+      "color": {
+        "a": 1,
+        "rgb": 5419488
+      }
+    },
+    {
+      "query": "tag:linux",
       "color": {
         "a": 1,
         "rgb": 14725458
@@ -33,5 +61,5 @@
   "linkStrength": 1,
   "linkDistance": 138,
   "scale": 0.7281964588708858,
-  "close": true
+  "close": false
 }

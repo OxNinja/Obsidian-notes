@@ -1,4 +1,4 @@
-#cisco #networking
+#cisco #network
 ## Install
 To install packet tracer on an Arch based system one need to log into the https://www.netacad.com website.
 The steps are:

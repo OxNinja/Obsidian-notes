@@ -84,6 +84,9 @@
   },
   "active": "1f3c0c8e9768b87a",
   "lastOpenFiles": [
+    "network/PacketTracer.md",
+    "db/Redis.md",
+    "fail2ban.md",
     "PacketTracer.md",
     "Redis.md",
     "tmux.md",
