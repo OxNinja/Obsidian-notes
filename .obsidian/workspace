@@ -7,8 +7,12 @@
         "id": "1f3c0c8e9768b87a",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "network/wireguard.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "network/wireguard.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,6 +89,8 @@
   },
   "active": "1f3c0c8e9768b87a",
   "lastOpenFiles": [
+    "network/wireguard.md",
+    "reverse/arm.md",
     "network/PacketTracer.md",
     "db/Redis.md",
     "fail2ban.md",
@@ -91,8 +98,6 @@
     "Redis.md",
     "tmux.md",
     "Tornado.md",
-    "Templating.md",
-    "asdf.md",
-    "test.md"
+    "Templating.md"
   ]
 }
