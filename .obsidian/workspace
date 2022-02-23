@@ -1,0 +1,95 @@
+{
+  "main": {
+    "id": "90773b3d5249e001",
+    "type": "split",
+    "children": [
+      {
+        "id": "1f3c0c8e9768b87a",
+        "type": "leaf",
+        "state": {
+          "type": "graph",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "aa18db5a364b5533",
+    "type": "split",
+    "children": [
+      {
+        "id": "d89dacfa0d645229",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f14f44b871e65f4b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "a5a6be010b649982",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "63c236548a88c512",
+    "type": "split",
+    "children": [
+      {
+        "id": "a8f0209e38d9122c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "11a4f8cdc7ca453d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "1f3c0c8e9768b87a",
+  "lastOpenFiles": [
+    "PacketTracer.md",
+    "Redis.md",
+    "tmux.md",
+    "Tornado.md",
+    "Templating.md",
+    "asdf.md",
+    "test.md"
+  ]
+}
