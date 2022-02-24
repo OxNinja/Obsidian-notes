@@ -85,6 +85,7 @@
   "active": "1f3c0c8e9768b87a",
   "lastOpenFiles": [
     "web/Chrome Debug Protocol.md",
+    "linux/ss.md",
     "network/wireguard.md",
     "reverse/arm.md",
     "network/PacketTracer.md",
@@ -92,7 +93,6 @@
     "fail2ban.md",
     "PacketTracer.md",
     "Redis.md",
-    "tmux.md",
-    "Tornado.md"
+    "tmux.md"
   ]
 }
