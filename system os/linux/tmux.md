@@ -1,4 +1,5 @@
-#linux #shell
+#linux #shell #system 
+Used for [[Linux]] terminal multiplexing
 
 # tmux config
 

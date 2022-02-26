@@ -84,15 +84,15 @@
   },
   "active": "1f3c0c8e9768b87a",
   "lastOpenFiles": [
-    "reverse/Reverse.md",
-    "reverse/nasm.md",
-    "reverse/Assembler (language).md",
-    "reverse/asm.md",
-    "reverse/arm.md",
-    "reverse/VM (reverse).md",
-    "reverse/Trampoline.md",
-    "reverse/GDB.md",
-    "linux/tmux.md",
-    "web/Chrome Debug Protocol.md"
+    "network/ssh.md",
+    "web/web browser/Chromium.md",
+    "web/web browser/Chrome.md",
+    "web/web browser/Firefox.md",
+    "system os/windows/Windows.md",
+    "network/wireguard.md",
+    "system os/linux/ss.md",
+    "system os/linux/tmux.md",
+    "system os/linux/Linux.md",
+    "reverse/nasm.md"
   ]
 }

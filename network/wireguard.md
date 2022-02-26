@@ -2,6 +2,7 @@
 # Wireguard
 https://www.wireguard.com/
 Wireguard is a [[VPN]] solution for secure connection over internet or LAN
+Compatible with [[Linux]] and [[Windows]]
 State of the art crypto
 ## Working
 	| Alice                            | Bob
