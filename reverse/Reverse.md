@@ -1,2 +1,2 @@
-#reverse 
-[[Cutter]] is a cool disassembler for [[radare2]] or now [[Rizin]] 
+#reverse #low-level 
+[[Cutter]] is a cool [[Disassembler]] for [[radare2]] or now [[Rizin]] 

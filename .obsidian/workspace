@@ -84,15 +84,15 @@
   },
   "active": "1f3c0c8e9768b87a",
   "lastOpenFiles": [
-    "reverse/GDB.md",
-    "reverse/VM (reverse).md",
+    "reverse/Reverse.md",
+    "reverse/nasm.md",
     "reverse/Assembler (language).md",
-    "reverse/Trampoline.md",
     "reverse/asm.md",
     "reverse/arm.md",
-    "reverse/Reverse.md",
+    "reverse/VM (reverse).md",
+    "reverse/Trampoline.md",
+    "reverse/GDB.md",
     "linux/tmux.md",
-    "web/Chrome Debug Protocol.md",
-    "linux/ss.md"
+    "web/Chrome Debug Protocol.md"
   ]
 }

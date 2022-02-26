@@ -1,5 +1,5 @@
 {
-  "collapse-filter": false,
+  "collapse-filter": true,
   "search": "",
   "showTags": false,
   "showAttachments": false,
@@ -43,6 +43,13 @@
       }
     },
     {
+      "query": "tag:low-level",
+      "color": {
+        "a": 1,
+        "rgb": 14772791
+      }
+    },
+    {
       "query": "tag:linux",
       "color": {
         "a": 1,
@@ -52,14 +59,14 @@
   ],
   "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": -0.3,
-  "nodeSizeMultiplier": 1.68529411764706,
-  "lineSizeMultiplier": 2.23294117647059,
+  "textFadeMultiplier": -0.5,
+  "nodeSizeMultiplier": 1.85897435897436,
+  "lineSizeMultiplier": 2.48717948717949,
   "collapse-forces": false,
-  "centerStrength": 0.423529411764706,
-  "repelStrength": 13.4117647058824,
-  "linkStrength": 0.847058823529412,
-  "linkDistance": 124,
-  "scale": 0.5089806638802782,
+  "centerStrength": 0.452991452991453,
+  "repelStrength": 10.0854700854701,
+  "linkStrength": 0.692307692307692,
+  "linkDistance": 151,
+  "scale": 0.24866045625811423,
   "close": false
 }
