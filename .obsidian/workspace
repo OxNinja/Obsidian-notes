@@ -7,8 +7,12 @@
         "id": "1f3c0c8e9768b87a",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "system os/linux/ss.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -36,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "ss",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -45,11 +49,12 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 206
+    "width": 300
   },
   "right": {
     "id": "63c236548a88c512",
@@ -65,13 +70,14 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "system os/linux/ss.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           }
@@ -79,20 +85,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "1f3c0c8e9768b87a",
   "lastOpenFiles": [
-    "network/ssh.md",
-    "web/web browser/Chromium.md",
-    "web/web browser/Chrome.md",
-    "web/web browser/Firefox.md",
-    "system os/windows/Windows.md",
-    "network/wireguard.md",
     "system os/linux/ss.md",
-    "system os/linux/tmux.md",
-    "system os/linux/Linux.md",
-    "reverse/nasm.md"
+    "reverse/Debugging.md",
+    "reverse/GDB.md",
+    "programming/NodeJS.md",
+    "programming/JavaScript.md",
+    "programming/Python.md",
+    "web/Chrome Debug Protocol.md",
+    "reverse/Reverse.md",
+    "sources/tmp.out.md",
+    "companies/HashiCorp.md"
   ]
 }
