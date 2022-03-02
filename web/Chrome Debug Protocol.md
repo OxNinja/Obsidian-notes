@@ -8,4 +8,7 @@ https://developer.chrome.com/docs/devtools/remote-debugging/local-server/
 * activer le debug usb
 * connecter le device en usb sur la machine
 * `android-tools` pour avoir `adb`
+* `adb forward --list`
+* `adb forward tcp:9022 localabstract:chrome_devtools_remote`
+* `adb forward --delete tcp:9022`
 
