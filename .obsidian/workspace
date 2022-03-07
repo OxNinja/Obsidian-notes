@@ -7,8 +7,12 @@
         "id": "1f3c0c8e9768b87a",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "programming/scripting/bash.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "programming/scripting/bash.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -83,15 +88,15 @@
   },
   "active": "1f3c0c8e9768b87a",
   "lastOpenFiles": [
+    "programming/scripting/bash.md",
+    "programming/scripting/Python.md",
+    "programming/compiling/Assembler (language).md",
     "reverse/Android React native.md",
+    "sources/tmp.out.md",
     "programming/git.md",
     "system os/Arduino.md",
     "system os/Android/Androguard.md",
     "system os/Android/Android.md",
-    "container/Docker.md",
-    "debugging/GDB.md",
-    "reverse/radare2.md",
-    "programming/C.md",
-    "debugging/PwnDBG.md"
+    "container/Docker.md"
   ]
 }
