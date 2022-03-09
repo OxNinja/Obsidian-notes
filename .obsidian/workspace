@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "programming/scripting/bash.md",
+            "file": "system os/linux/Linux.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ss",
+                "query": "linux",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -49,7 +49,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -69,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "programming/scripting/bash.md",
+                "file": "system os/linux/Linux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +89,15 @@
   },
   "active": "1f3c0c8e9768b87a",
   "lastOpenFiles": [
-    "programming/scripting/bash.md",
+    "system os/linux/Linux.md",
+    "ELF.md",
+    "web/Tornado.md",
     "programming/scripting/Python.md",
-    "programming/compiling/Assembler (language).md",
-    "reverse/Android React native.md",
-    "sources/tmp.out.md",
-    "programming/git.md",
-    "system os/Arduino.md",
-    "system os/Android/Androguard.md",
     "system os/Android/Android.md",
-    "container/Docker.md"
+    "web/Chrome Debug Protocol.md",
+    "debugging/PwnDBG.md",
+    "security/Enumeration.md",
+    "PlayWright.md",
+    "companies/Microsoft.md"
   ]
 }

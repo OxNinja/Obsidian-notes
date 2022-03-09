@@ -2,6 +2,8 @@
 # Tornado
 > https://www.tornadoweb.org
 
+C'est du [[Python]]
+
 Mieux que [[Flask]] car :
 * Pas de race condition
 * Gere bien l'In/Out

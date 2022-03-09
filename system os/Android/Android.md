@@ -7,6 +7,9 @@ adb emu sms send 1234 hello from here
 adb shell dumpsys iphonesubinfo 
 adb shell dumpsys cpuinfo
 adb shell dumpsys notification
+adb shell pm list packages
+adb shell pm path com.example.app
+adb pull /path/to/base.apk /on/my/computer
 ```
 
 List all process: `adb shell ps-A`
@@ -122,7 +125,7 @@ android create project \
     --path <path-to-your-project>/HelloAndroid
 ```
 
-## With Gradle
+## With [[Gradle]]
 
 ### Install Gradle
 
@@ -209,13 +212,13 @@ From the top directory, to compile: `gradle build`.
 To install on a phone: `./gradlew installRelease`
 
 
-### ProGuard
+### [[Android ProGuard]]
 
 To remove logging at build time:
 
 `-assumenosideeffects class android.util.Log{*;}`
 
-# Implementing a native app
+# Implementing an [[Android native app]]
 
 - Download [NDK from this link](https://developer.android.com/ndk/downloads/index.html)
 - Unzip it in /opt:
@@ -437,7 +440,7 @@ shell@surnia_umts:/ $
 
 # [Frida](https://www.frida.re)
 
-Excellent tutorial for Frida on Android: [part 1](https://www.codemetrix.net/hacking-android-apps-with-frida-1) [part2](https://www.codemetrix.net/hacking-android-apps-with-frida-2/) [part3](https://www.codemetrix.net/hacking-android-apps-with-frida-3/)
+Excellent tutorial for [[Frida]] on Android: [part 1](https://www.codemetrix.net/hacking-android-apps-with-frida-1) [part2](https://www.codemetrix.net/hacking-android-apps-with-frida-2/) [part3](https://www.codemetrix.net/hacking-android-apps-with-frida-3/)
 
 Those notes are personal, please check [Frida's documentation](https://www.frida.re) to adapt to your own case.
 
