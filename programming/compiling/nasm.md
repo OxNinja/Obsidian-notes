@@ -1,5 +1,6 @@
 #assembly #low-level 
-[[Assembler (language)]] for [[Linux]] x86 64bits
+[[Assembly (language)]] for [[Linux]] x86 64bits
+https://nasm.us/doc/nasmdoc3.html
 
 ```asm
 global _start
@@ -36,4 +37,9 @@ _start:
 | r14      | Scratch       |
 | r15      | Scratch       |
 
-
+## Declaring
+`db`: declare byte (1 byte)
+`dw`: declare word (2 bytes)
+`dd`: declare dword (4 bytes)
+`times n`: declare n times the var (`times 3 db 0x01` == `db 0x01 0x01 0x01`)
+`$$`: beginning of current section

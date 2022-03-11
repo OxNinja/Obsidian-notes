@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "1f3c0c8e9768b87a",
+        "id": "2110b793c2c59565",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "system os/linux/Linux.md",
+            "file": "system os/linux/ELF.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "linux",
+                "query": "hardwa",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -49,12 +49,12 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "63c236548a88c512",
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "system os/linux/Linux.md",
+                "file": "system os/linux/ELF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,19 +85,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
-  "active": "1f3c0c8e9768b87a",
+  "active": "2110b793c2c59565",
   "lastOpenFiles": [
+    "system os/linux/ELF.md",
+    "programming/compiling/Assembly (language).md",
+    "programming/compiling/nasm.md",
+    "companies/Microsoft.md",
+    "companies/HashiCorp.md",
+    "security/Hardware attacks.md",
+    "hardware/Hardware.md",
+    "system os/embeeded/Embeeded systems.md",
     "system os/linux/Linux.md",
-    "ELF.md",
-    "web/Tornado.md",
-    "programming/scripting/Python.md",
-    "system os/Android/Android.md",
-    "web/Chrome Debug Protocol.md",
-    "debugging/PwnDBG.md",
-    "security/Enumeration.md",
-    "PlayWright.md",
-    "companies/Microsoft.md"
+    "web/Tornado.md"
   ]
 }
