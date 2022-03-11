@@ -13,6 +13,10 @@ Le consensus veut que la table des headers soit à la suite directement du heade
 
 `objdump -x test.o` : avoir les sections et les informations associées
 
+Note : ne pas oublier de mettre les permissions aux segments car bah... sinon le code s'exécute pas et on a droit à un joli SEGFAULT.
+
+[Flags des segments](https://docs.oracle.com/cd/E19683-01/816-1386/6m7qcoblk/index.html#chapter6-tbl-39)
+
 ## ELF golfing
 c'est recommandé de plutôt faire ses binaires en [[Assembly (language)]] car on peut mieux gérer les headers et le contenu général et en 32bits ou moins (car sinon ça prend trop de place)
 https://discord.com/channels/782652844577652796/817144996728930304/949770913245691924 ([[tmp.out]] discord)
