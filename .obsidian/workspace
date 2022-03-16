@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2110b793c2c59565",
+        "id": "94557b15328e9d3f",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "system os/linux/ELF.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -53,8 +49,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "63c236548a88c512",
@@ -70,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "system os/linux/ELF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,17 +82,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "2110b793c2c59565",
+  "active": "94557b15328e9d3f",
   "lastOpenFiles": [
+    "reverse/UPX.md",
+    "Anti reverse.md",
+    "reverse/Cutter.md",
+    "reverse/angr.md",
+    "debugging/GDB.md",
     "system os/linux/ELF.md",
     "programming/compiling/Assembly (language).md",
+    "programming/scripting/Python.md",
     "programming/compiling/nasm.md",
-    "companies/Microsoft.md",
-    "companies/HashiCorp.md",
-    "security/Hardware attacks.md",
-    "hardware/Hardware.md",
-    "system os/embeeded/Embeeded systems.md",
-    "system os/linux/Linux.md",
-    "web/Tornado.md"
+    "companies/Microsoft.md"
   ]
 }

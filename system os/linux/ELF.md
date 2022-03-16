@@ -17,6 +17,18 @@ Note : ne pas oublier de mettre les permissions aux segments car bah... sinon le
 
 [Flags des segments](https://docs.oracle.com/cd/E19683-01/816-1386/6m7qcoblk/index.html#chapter6-tbl-39)
 
+## Sections
+> Les sections sont là pour mettre de l'ordre et des conventions, mais en vrai on s'en fout un peu (c'est comme `<header>`, `<footer>`, etc en HTML 🤫)
+### `.text`
+Le code, les routines, tout ce qu'on veut.
+### `.rodata`
+De la donnée readonly, genre des constantes globales...
+### `.bss`
+Les variables, allocations dynamiques...
+### `.dynamic`
+C'est là que le linker (`ld`, `rtld`...) va cherche sa configuration.
+Table des symboles
+
 ## ELF golfing
 c'est recommandé de plutôt faire ses binaires en [[Assembly (language)]] car on peut mieux gérer les headers et le contenu général et en 32bits ou moins (car sinon ça prend trop de place)
 https://discord.com/channels/782652844577652796/817144996728930304/949770913245691924 ([[tmp.out]] discord)
@@ -25,14 +37,15 @@ en fait ce qu'il ce passe c'est que il faut d'abord compiler le binaire ou l'ass
 
 > In brief, the section header table is for use by the compiler and linker, while the program header table is for use by the program loader.
 
-The program header table is optionnal and never present in practice, the sectrion header table is also optional but always present.
+The program header table is optionnal and never present in practice, the section header table is also optional but always present.
 
 ### Compilation
+**Classque :**
 `nasm -f elf32 file.s`
 `ld -m elf_i386 -nmagic file.o -o bin`
 
+**Mieux :**
 Un truc qui marche vachement bien pour build un binaire direct c'est `nasm -f bin file.s`, en effet ça va juste pousser le binaire dans un fichier.
-Pour l'instant je n'ai pas réussi à build un binaire qui fonctionne, cependant j'ai un header nickel qui va taper à l'entrypoint comme demandé, mais il y a un **petit** soucis de SIGSEG à l'exécution du code.
 
 ### Header
 Le plus petit header pour l'instant je vois que c'est genre
@@ -127,4 +140,5 @@ _start:
 ### Golfing resources
 https://codegolf.stackexchange.com/questions/5696/shortest-elf-for-hello-world-n
 [Create tiny ELF for Linux](https://www.muppetlabs.com/~breadbox/software/tiny/teensy.html)
+https://www.muppetlabs.com/~breadbox/software/tiny/
 [Analyzing ELF with malformed headers](https://binaryresearch.github.io/2019/09/17/Analyzing-ELF-Binaries-with-Malformed-Headers-Part-1-Emulating-Tiny-Programs.html)
