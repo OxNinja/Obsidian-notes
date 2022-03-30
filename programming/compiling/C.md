@@ -1,5 +1,5 @@
 #c 
-## Function with pointer and struct
+## Function with struct
 ```c
 typedef struct Thing {
 	int a;
