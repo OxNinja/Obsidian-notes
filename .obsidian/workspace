@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "c4e0244a2b8732a4",
+        "id": "aaacbbce0ff4508a",
         "type": "leaf",
         "state": {
           "type": "graph",
@@ -45,7 +45,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -82,17 +83,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "c4e0244a2b8732a4",
+  "active": "aaacbbce0ff4508a",
   "lastOpenFiles": [
+    "programming/compiling/C.md",
+    "programming/compiling/Makefile.md",
     "C VM.md",
     "programming/docummenting/Sphinx.md",
     "programming/docummenting/Code documentation.md",
     "programming/scripting/Python.md",
-    "programming/compiling/C.md",
     "reverse/angr.md",
     "NES.md",
     "reverse/UPX.md",
-    "Anti reverse.md",
-    "reverse/Cutter.md"
+    "Anti reverse.md"
   ]
 }

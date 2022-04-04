@@ -1,4 +1,6 @@
 #c 
+
+Best use with [[Makefile]] 
 ## Function with struct
 ```c
 typedef struct Thing {

@@ -7,5 +7,6 @@
   "spellcheck": true,
   "vimMode": true,
   "alwaysUpdateLinks": true,
-  "promptDelete": false
+  "promptDelete": false,
+  "tabSize": 2
 }
