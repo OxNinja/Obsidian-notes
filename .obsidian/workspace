@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "reverse/Anti reverse.md",
+            "file": "README.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "reverse/Anti reverse.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,10 +89,10 @@
   },
   "active": "aaacbbce0ff4508a",
   "lastOpenFiles": [
+    "README.md",
     "reverse/Anti reverse.md",
     "programming/C VM.md",
     "reverse/NES.md",
-    "README.md",
     "().md",
     "debugging/GDB.md",
     "container/Docker.md",
