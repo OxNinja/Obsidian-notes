@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "debugging/GDB.md",
+            "file": "README.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "gdb",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -49,8 +49,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -70,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "debugging/GDB.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,6 +89,8 @@
   },
   "active": "aaacbbce0ff4508a",
   "lastOpenFiles": [
+    "README.md",
+    "().md",
     "debugging/GDB.md",
     "container/Docker.md",
     "web/Chrome Debug Protocol.md",
@@ -97,8 +98,6 @@
     "system os/linux/ELF.md",
     "programming/compiling/C.md",
     "programming/compiling/Makefile.md",
-    "C VM.md",
-    "programming/docummenting/Sphinx.md",
-    "programming/docummenting/Code documentation.md"
+    "C VM.md"
   ]
 }
