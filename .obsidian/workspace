@@ -7,8 +7,12 @@
         "id": "aaacbbce0ff4508a",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "debugging/GDB.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -36,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "hardwa",
+                "query": "gdb",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,6 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "debugging/GDB.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,15 +90,15 @@
   },
   "active": "aaacbbce0ff4508a",
   "lastOpenFiles": [
+    "debugging/GDB.md",
+    "container/Docker.md",
+    "web/Chrome Debug Protocol.md",
+    "programming/scripting/Python.md",
+    "system os/linux/ELF.md",
     "programming/compiling/C.md",
     "programming/compiling/Makefile.md",
     "C VM.md",
     "programming/docummenting/Sphinx.md",
-    "programming/docummenting/Code documentation.md",
-    "programming/scripting/Python.md",
-    "reverse/angr.md",
-    "NES.md",
-    "reverse/UPX.md",
-    "Anti reverse.md"
+    "programming/docummenting/Code documentation.md"
   ]
 }

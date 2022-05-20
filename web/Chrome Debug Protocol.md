@@ -12,3 +12,13 @@ https://developer.chrome.com/docs/devtools/remote-debugging/local-server/
 * `adb forward tcp:9022 localabstract:chrome_devtools_remote`
 * `adb forward --delete tcp:9022`
 
+## ppadb
+```python
+from ppadb.client import Client
+
+c = Client(host="localhost", port=5037)
+d = c.devices()[0]
+
+# forwarding local port 9000 to chrome devtools remote
+d.forward(local="tcp:9000", remote="localabstract:chrome_devtools_remote")
+```

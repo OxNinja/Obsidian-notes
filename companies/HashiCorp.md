@@ -1,2 +1,0 @@
-#cloud #infra
-[[Terraform]] [[Vagrant]]
