@@ -5,7 +5,7 @@
   "foldHeading": true,
   "foldIndent": true,
   "spellcheck": true,
-  "vimMode": true,
+  "vimMode": false,
   "alwaysUpdateLinks": true,
   "promptDelete": false,
   "tabSize": 2

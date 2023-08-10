@@ -3,19 +3,22 @@
 
 ## Alive hosts
 `nmap -sn 10.0.0.0/24`
+
 ## scan the 1024 most common ports, run OS detection, run default nmap scripts
 `nmap -A -oA nmap <targetip>`
 
-> Scan more deeply, scan all 65535 ports on $targetip with a full connect scan
+> Scan more deeply, scan all 65535 ports on `$targetip` with a full connect scan
 
 `nmap -v -sT <targetip> -p-`
+
 ## more options
-`nmap -sV -sC -v -A <targetip> -p- 
-`nmap -sT -sV -A -O -v -p 1–65535 <targetip> 
+`nmap -sV -sC -v -A <targetip> -p-`
+`nmap -sT -sV -A -O -v -p 1–65535 <targetip>`
+`nmap -sU <targetip>` for UDP scan
 
 >my preference
-`nmap -sV -sC -v -oA output <targetip>
-`nmap -p- -v <targetip>
+ `nmap -sV -sC -v -oA output <targetip>
+ `nmap -p- -v <targetip>
 
 ---
 
