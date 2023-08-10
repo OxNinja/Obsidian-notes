@@ -104,8 +104,9 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "aaacbbce0ff4508a",
+  "active": "f14f44b871e65f4b",
   "lastOpenFiles": [
+    "security/Fuzzing.md",
     "README.md",
     "db/SQLite.md",
     "reverse/Anti reverse.md",
